@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+}
+#text{
+  background-color: #f5f5f5;
+}
+#form{
+  background-color: #ffffff;
+}
+main {
+  display: flex;
+  flex-direction: row; /* Altera a direção para linha */
+  justify-content: space-between; /* Distribui os itens entre o início e o fim */
+}
+/* Cabeçalho */
+header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Formulário */
+form {
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Campos do formulário */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+#label{
+  float: left;
+  margin-right: -210px; /* Adiciona um espaço entre o checkbox e o texto */
+}
+#input{
+  float: left;
+  margin-right: -450px;
+}
+.botao {
+  background-color: #A020F0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.mostra-senha{
+  border: none; /* Remove a borda */
+  font-weight: bold; /* Torna o texto em negrito */
+  /* Adicione outras propriedades de estilo conforme necessário */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
